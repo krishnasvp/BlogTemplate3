@@ -8,3 +8,15 @@ body{
     margin:0px;
     background-color: white;
 }
+
+header .logo{
+    float: left;
+}
+
+header ul {
+    float: right;
+}
+
+header .menu-toggle{
+    display: none;
+}
