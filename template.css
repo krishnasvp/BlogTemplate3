@@ -24,6 +24,11 @@ header .logo-text{
     margin:10px;
 }
 
+header .logo-text span {
+    color: black;
+}
+
+
 header ul {
     float: right;
 }
