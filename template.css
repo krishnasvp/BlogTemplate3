@@ -15,9 +15,13 @@ header * {
 
 header .logo{
     float: left;
-    border: 1px solid whitesmoke;
     margin-left:2em;
     height: inherit;
+}
+
+
+header .logo-text{
+    margin:10px;
 }
 
 header ul {
