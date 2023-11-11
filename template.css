@@ -16,6 +16,7 @@ header * {
 header .logo{
     float: left;
     border: 1px solid whitesmoke;
+    margin-left:2em;
     height: inherit;
 }
 
