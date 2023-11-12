@@ -22,6 +22,7 @@ header .logo{
 
 header .logo-text{
     margin:10px;
+     font-family: 'Candal', serif;
 }
 
 header .logo-text span {
