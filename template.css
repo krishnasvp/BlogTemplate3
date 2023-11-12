@@ -33,7 +33,10 @@ header .logo-text span {
 
 header ul {
     float: right;
-     border: 1px solid red;
+    border: 1px solid red;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
 }
 
 header .menu-toggle{
