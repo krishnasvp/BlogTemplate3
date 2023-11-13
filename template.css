@@ -39,6 +39,10 @@ header ul {
     list-style: none;
 }
 
+header ul li {
+    float:left;
+}
+
 header .menu-toggle{
     display: none;
 }
