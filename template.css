@@ -59,7 +59,7 @@ header .menu-toggle{
 }
 
 header ul li a:hover {
-    background: cyan;
-     transition:0.5s;
+    background: darkred;
+    transition:0.5s;
 }
 
