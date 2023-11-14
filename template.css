@@ -21,6 +21,10 @@ header .logo{
 }
 
 
+header ul li ul {
+    position:absolute;
+}
+
 header .logo-text{
     margin:10px;
      font-family: 'Candal', serif;
@@ -58,3 +62,4 @@ header ul li a:hover {
     background: cyan;
      transition:0.5s;
 }
+
