@@ -46,8 +46,13 @@ header ul li a {
     display: block;
     padding: 21px;
     font-size: 1.1em;
+    text-decoration:none;
 }
 
 header .menu-toggle{
     display: none;
+}
+
+header ul li a:hover {
+    background: cyan;
 }
