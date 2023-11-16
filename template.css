@@ -1,6 +1,6 @@
 header{
     background-color: red;
-    height: 66px;
+    height: 65px;
 }
 
 body{
@@ -15,28 +15,23 @@ header * {
 }
 
 header .logo{
+    position: relative;
     float: left;
-    margin-left:2em;
     height: inherit;
-}
-
-
-header ul li ul {
-    position:absolute;
-    top:66px;
-    right:0px;
-    width: 180px;
 }
 
 header .logo-text{
     margin:10px;
-     font-family: 'Candal', serif;
+    font-family: 'Candal', serif;
 }
 
 header .logo-text span {
     color: black;
 }
 
+header .menu-toggle{
+    display: none;
+}
 
 header ul {
     float: right;
@@ -54,11 +49,7 @@ header ul li a {
     display: block;
     padding: 21px;
     font-size: 1.1em;
-    text-decoration:none;
-}
-
-header .menu-toggle{
-    display: none;
+    text-decoration: none;
 }
 
 header ul li a:hover {
@@ -66,3 +57,18 @@ header ul li a:hover {
     transition:0.5s;
 }
 
+header ul li ul {
+    position:absolute;
+    top:66px;
+    right:0px;
+    width: 180px;
+}
+
+header ul li ul li {
+    width:100%;
+}
+
+
+header ul li ul li a{
+    padding: 10px;
+}
