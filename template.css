@@ -23,6 +23,9 @@ header .logo{
 
 header ul li ul {
     position:absolute;
+    top:66px;
+    right:0px;
+    width: 180px;
 }
 
 header .logo-text{
