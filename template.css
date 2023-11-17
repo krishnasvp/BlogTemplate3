@@ -68,7 +68,13 @@ header ul li ul li {
     width:100%;
 }
 
-
 header ul li ul li a{
     padding: 10px;
+    background:white;
+    color:#444;
 }
+
+header ul li ul li a:hover{
+    background: #d5d6d6 ;
+}
+
