@@ -94,4 +94,14 @@ header ul li ul li a:hover{
         width:100%;
         background: rgb(255, 83, 83);
     }
+
+        header ul li{
+        width:100%;
+    }
+
+    header ul li ul{
+        position:static;
+        width:100%;
+        display:block;
+    }
 }
