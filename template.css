@@ -87,3 +87,11 @@ header ul li ul li a:hover{
 .cv-text{
     text-align: center;
 }
+
+/* MEDIA QUERIES */
+@media only screen and (max-width:750px){
+    header ul {
+        width:100%;
+        background: rgb(255, 83, 83);
+    }
+}
