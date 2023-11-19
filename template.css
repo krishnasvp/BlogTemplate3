@@ -104,4 +104,24 @@ header ul li ul li a:hover{
         width:100%;
         display:block;
     }
+
+     .cv-text{
+        text-align: left;
+        background-color: lightgray;
+    }
+
+    .landing-page{
+        text-align: left;
+        background-color: lightgray;
+    }
+
+    .cv-text:hover {
+        text-align: left;
+        color: rgba(255, 255, 255, 0.54);
+    }
+
+    .landing-page:hover {
+        text-align: left;
+        color: rgba(255, 255, 255, 0.54);
+    }
 }
