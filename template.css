@@ -127,4 +127,12 @@ header ul li ul li a:hover{
         text-align: left;
         color: rgba(255, 255, 255, 0.54);
     }
+
+      header .menu-toggle{
+        display:block;
+        position:absolute;
+        right:20px;
+        top:15px;
+        font-size:1.5em;
+    }
 }
