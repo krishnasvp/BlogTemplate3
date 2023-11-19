@@ -57,7 +57,7 @@ header ul li a:hover {
     transition:0.5s;
 }
 
-header ul li ul {
+header ul li ul{
     position:absolute;
     top:66px;
     right:0px;
@@ -69,23 +69,23 @@ header ul li:hover ul{
     display:block;
 }
 
-
-header ul li ul li {
+header ul li ul li{
     width:100%;
 }
 
 header ul li ul li a{
     padding: 10px;
-    background:white;
+    background:rgba(255, 255, 255, 0.374);
     color:#444;
 }
 
 header ul li ul li a:hover{
-    background: #d5d6d6 ;
+    background: #d5d6d68c;
 }
 
-.cv-text{
+.cv-text, .landing-page{
     text-align: center;
+    background-color: lightgray;
 }
 
 /* MEDIA QUERIES */
@@ -95,7 +95,7 @@ header ul li ul li a:hover{
         background: rgb(255, 83, 83);
     }
 
-        header ul li{
+    header ul li{
         width:100%;
     }
 
