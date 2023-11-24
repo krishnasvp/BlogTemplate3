@@ -112,6 +112,8 @@ header ul li ul li a:hover{
 }
 
 .post{
+    width:300px;
+    height:350px;
     background-color: cyan;
     display:inline-block;
 }
