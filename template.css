@@ -10,6 +10,9 @@ body{
     font-family: 'Lora', serif;
 }
 
+
+/*Header*/
+
 header * {
     color: white;
 }
@@ -76,7 +79,7 @@ header ul li ul li{
 
 header ul li ul li a{
     padding: 10px;
-    background:rgba(255, 255, 255, 0.374);
+    background:lightgray;
     color:#444;
 }
 
@@ -89,13 +92,40 @@ header ul li ul li a:hover{
     background-color: lightgray;
 }
 
+
+/*Header*/
+
+
+/*Post Slider*/
+
+.post-slider
+{
+    border: 1px dashed red;
+}
+
+.post-wrapper
+{
+    width: 84%;
+    height: 350px;
+    margin: 0px auto;
+    border:1px dashed red;
+}
+
+.post{
+    background-color: cyan;
+    display:inline-block;
+}
+
+/*Post Slider*/
+
+
 /* MEDIA QUERIES */
 @media only screen and (max-width:750px){
-    
+
     header ul {
         width:100%;
         background: rgb(255, 83, 83);
-         max-height: 0px;
+        max-height: 0px;
         overflow: hidden;
     }
 
@@ -109,7 +139,7 @@ header ul li ul li a:hover{
         display:block;
     }
 
-     .cv-text{
+    .cv-text{
         text-align: left;
         background-color: lightgray;
     }
@@ -129,11 +159,12 @@ header ul li ul li a:hover{
         color: rgba(255, 255, 255, 0.54);
     }
 
-      header .menu-toggle{
+    header .menu-toggle{
         display:block;
         position:absolute;
         right:20px;
         top:15px;
         font-size:1.5em;
     }
+
 }
