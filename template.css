@@ -109,15 +109,16 @@ header ul li ul li a:hover{
     height: 350px;
     margin: 0px auto;
     border:1px dashed red;
+    overflow: hidden;
 }
 
 .post{
     width:300px;
-    height:350px;
+    height: 350px;
     background-color: cyan;
     display:inline-block;
+    margin: 0px 10px;
 }
-
 /*Post Slider*/
 
 
